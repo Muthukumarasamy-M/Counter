@@ -1,0 +1,38 @@
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+#div {
+  text-align: center;
+  background-color: rgb(237, 237, 227);
+  height: 350px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgb(246, 242, 242);
+}
+#mybuttoncontainer {
+  text-align: center;
+}
+#labelnumber {
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  font-family: helvetica;
+  font-size: 6em;
+}
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 1em;
+  color: white;
+  background-color: hsl(214, 56%, 78%);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+button:hover {
+  background-color: hsl(214, 100%, 56%);
+}
